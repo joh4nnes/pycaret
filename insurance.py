@@ -1,7 +1,5 @@
 import pandas as pd
 import streamlit as st
-from pycaret.regression import predict_model, plot_model, setup
-from pycaret.classification import predict_model, plot_model, setup
 from pycaret.regression import load_model, predict_model
 
 st.set_page_config(page_title="Insurance Charges Prediction App")
